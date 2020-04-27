@@ -1,0 +1,25 @@
+  <table>
+	  <thead>
+		  <th style="border: 2px solid #000;">name of music</th>
+		  <th style="border: 2px solid #000;">author name</th>
+		  <th style="border: 2px solid #000;">year of music</th>
+		  <th style="border: 2px solid #000;">country</th>
+		  <th style="border: 2px solid #000;">time</th>
+		  <th style="border: 2px solid #000;">place in world chart</th>
+	  </thead>
+	   <tbody>
+	  {{#each music}}
+	 
+	  <tr>
+		<td>{{name}}</td>
+		<td>{{nickname}}</td>
+        <td>{{year}}</td>
+		<td>{{country}}</td>
+		<td>{{minutes}}:{{seconds}}</td>
+		<td>{{chart}}</td>
+	  </tr>
+	  {{/each}}
+
+	  </tbody>
+  </table>
+
